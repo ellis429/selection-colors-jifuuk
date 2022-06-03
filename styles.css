@@ -1,0 +1,175 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  padding: 1rem;
+  overflow: auto;
+}
+.btn {
+  margin: 5px;
+}
+
+/* 
+  red: (220, 53, 69)
+  green : (40, 167, 69)
+  orange :  (255, 193, 7)
+ */
+
+/* ===               === */
+/*                       */
+/*       RED THEME       */
+/*                       */
+/* ===               === */
+
+/* ROW SELECTION */
+#grid-theme-wrapper.red-theme .ag-theme-alpine .ag-row-selected {
+  background-color: rgba(220, 53, 69, 0.3);
+}
+
+/* RANGE SELECTION */
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected:not(.ag-cell-focus),
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-single-cell:not(.ag-cell-inline-editing) {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+/* RANGE SELECTION ITERSECTION LEVELS */
+
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-1:not(.ag-cell-inline-editing) {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-1:not(.ag-cell-focus),
+grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-1 {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-2:not(.ag-cell-focus),
+grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-2 {
+  background-color: rgba(220, 53, 69, 0.36);
+}
+
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-3:not(.ag-cell-focus),
+grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-3 {
+  background-color: rgba(220, 53, 69, 0.488);
+}
+
+#grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-4:not(.ag-cell-focus),
+grid-theme-wrapper.red-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-4 {
+  background-color: rgba(220, 53, 69, 0.5904);
+}
+
+/* ===               === */
+/*                       */
+/*       GREEN THEME     */
+/*                       */
+/* ===               === */
+
+/* ROW SELECTION */
+#grid-theme-wrapper.green-theme .ag-theme-alpine .ag-row-selected {
+  background-color: rgba(40, 167, 69, 0.3);
+}
+
+/* RANGE SELECTION */
+
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected:not(.ag-cell-focus),
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-single-cell:not(.ag-cell-inline-editing) {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+/* RANGE SELECTION ITERSECTION LEVELS */
+
+/* when range selected cell is focused */
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-1:not(.ag-cell-inline-editing) {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+/* whe not focused */
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-1:not(.ag-cell-focus),
+grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-1 {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-2:not(.ag-cell-focus),
+grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-2 {
+  background-color: rgba(40, 167, 69, 0.36);
+}
+
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-3:not(.ag-cell-focus),
+grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-3 {
+  background-color: rgba(40, 167, 69, 0.488);
+}
+
+#grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-cell-range-selected-4:not(.ag-cell-focus),
+grid-theme-wrapper.green-theme
+  .ag-theme-alpine
+  .ag-body-viewport:not(.ag-has-focus)
+  .ag-cell-range-selected-4 {
+  background-color: rgba(40, 167, 69, 0.5904);
+}
